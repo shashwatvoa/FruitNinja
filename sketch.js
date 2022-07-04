@@ -113,12 +113,12 @@ bb.setLifetimeEach(-1);
     // Go to end state if knife touching enemy
       
   no=createSprite(300,30,600,60);
-  fill(0,0,255);
+  fill(0,0,500);
   score.depth=100
   drawSprites();
   
   //Display score
-  textSize(25);
+  textSize(50);
   text("Score : "+ score,250,50);
   spawnClouds1();
   spawnClouds2();
